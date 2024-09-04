@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="arealogin">
+        <h1>Login</h1>
+        <form>
+            <input type="text" id="username" placeholder="Usuario" required>
+            <input type="password" id="password" placeholder="Senha" required>
+
+            <button type="submit" onclick="validar(event)">Enviar</button>
+            <span id="mensagemErro " style="display: none; color: red">Usuario ou senha incorretos.</span>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
